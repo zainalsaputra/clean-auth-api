@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1730696876771" clover="3.2.0">
-  <project timestamp="1730696876771" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="17" coveredconditionals="17" methods="6" coveredmethods="6" elements="55" coveredelements="55" complexity="0" loc="32" ncloc="32" packages="2" files="5" classes="5"/>
+<coverage generated="1730697992835" clover="3.2.0">
+  <project timestamp="1730697992835" name="All files">
+    <metrics statements="45" coveredstatements="45" conditionals="27" coveredconditionals="27" methods="10" coveredmethods="10" elements="82" coveredelements="82" complexity="0" loc="45" ncloc="45" packages="3" files="7" classes="7"/>
     <package name="Commons">
       <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
       <file name="AuthenticationError.js" path="D:\Dicoding Academy\AWS\EXPERT\clean-auth-api\src\Commons\AuthenticationError.js">
@@ -35,8 +35,17 @@
         <line num="10" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="Domains.users">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="UserRepository.js" path="D:\Dicoding Academy\AWS\EXPERT\clean-auth-api\src\Domains\users\UserRepository.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="Domains.users.entities">
-      <metrics statements="14" coveredstatements="14" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+      <metrics statements="24" coveredstatements="24" conditionals="24" coveredconditionals="24" methods="4" coveredmethods="4"/>
       <file name="RegisterUser.js" path="D:\Dicoding Academy\AWS\EXPERT\clean-auth-api\src\Domains\users\entities\RegisterUser.js">
         <metrics statements="14" coveredstatements="14" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
         <line num="3" count="5" type="stmt"/>
@@ -53,6 +62,19 @@
         <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="26" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="RegisteredUser.js" path="D:\Dicoding Academy\AWS\EXPERT\clean-auth-api\src\Domains\users\entities\RegisteredUser.js">
+        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
     </package>
   </project>
